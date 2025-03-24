@@ -1,0 +1,35 @@
+{
+  "name": "coting-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "jest",
+    "test:every": "jest ./test/every.spec.js",
+    "test:findIndex": "jest ./test/find-index.spec.js",
+    "test:find": "jest ./test/find.spec.js",
+    "test:forEach": "jest ./test/for-each.spec.js",
+    "test:reduce": "jest ./test/reduce.spec.js",
+    "test:some": "jest ./test/some.spec.js",
+    "test:reverse": "jest ./test/reverse.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ripetchor/coting-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ripetchor/coting-tests/issues"
+  },
+  "homepage": "https://github.com/ripetchor/coting-tests#readme",
+  "devDependencies": {
+    "prettier": "^3.5.2",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.7",
+    "jest": "^29.7.0"
+  }
+}
