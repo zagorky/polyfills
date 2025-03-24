@@ -1,7 +1,3 @@
-function myArgsReverser(fn) {
-    return function (...args) {
-       return  fn(...args.reverse())
-    }
-}
+function myArgsReverser(fn) {}
 
 module.exports = myArgsReverser;

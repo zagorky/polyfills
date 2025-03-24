@@ -1,10 +1,3 @@
-function myCurryLogger(fn){
-    return function curry(...args){
-        if(args.length >=fn.length) {
-            return fn(...args)
-        }
-        return (...more) => curry(...args,...more)
-    }
-}
+function myCurryLogger(fn) {}
 
 module.exports = myCurryLogger;

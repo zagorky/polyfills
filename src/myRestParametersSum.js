@@ -1,6 +1,3 @@
-function myRestParametersSum(...args){
-    return args.reduce((acc, elem) => acc += elem, 0)
+function myRestParametersSum(...args) {}
 
-}
-
-module.exports = myRestParametersSum
+module.exports = myRestParametersSum;
